@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #ddf3f5;
+}
+h1{
+  font-size: 5.625rem;
+  color: #34626c;
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 2.5rem;
+  color: #0e918c;
+  font-family: 'Lora', serif;
+  font-weight: normal;
+}
+h3{
+  color: #34626c;
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+}
+p{
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  color: #16a596;
+}
+a{
+  color: #11999E;
+}
+.cloud2{
+  height: 200px;
+  position:fixed;
+  left: 150px;
+  bottom: 150px;
+}
+.cloud1{
+  height: 200px;
+  position: fixed;
+  right: 180px;
+  top: 100px;
+}
+.top-container{
+  background-color: #ddf3f5;
+  position: relative;
+}
+.middle-container{
+background-color: #ddf3f5;
+padding-bottom: 40px;
+}
+.bottom-container{
+background-color: #16a596;
+padding: 50px 0 20px;
+}
+.img0{
+  padding: 60px;
+  height: 200px;
+  background-color: #edf285;
+  border-radius: 100%;
+}
+.img1{
+  width:30%;
+  float: left;
+  padding-right: 50px;
+}
+.img2{
+  width: 30%;
+float: right;
+}
+hr{
+  border-style: dotted none none none;
+  border-width: 20px;
+  width: 7%;
+  border-color: #f05454;
+  margin: 100px auto 100px auto;
+}
+strong{
+  color: #34626c;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.intro{
+  width: 40%;
+  margin: auto;
+}
+.contact-message{
+  width: 30%;
+  margin: 40px auto 60px auto;
+}
+.footer-link{
+  color: #34626c;
+  font-size: 1.2rem;
+  font-family: 'Lora', serif;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: white;
+}
+.end{
+  font-size: 0.65rem;
+  color: white;
+  padding: 20px 0;
+}
+.btn {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   height: 0;
+   line-height: 0;
+   color: #FDFDFD;
+   font-family: 'Lora', serif;
+   width: 143px;
+   font-size: 18px;
+   font-weight: 100;
+   padding: 27px;
+   background-color: #706897;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #264B82;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #9088D4;
+   border: solid #337FED 1px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
